@@ -1,6 +1,6 @@
 # EchoTales
 
-SETUP
+FOR SETUP
 Please follow the below steps to execute the project file.
 
 1. Access the zip file Echo tales using any IDE: Open the extracted zip file in any IDE
