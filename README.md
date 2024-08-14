@@ -1,5 +1,6 @@
 # EchoTales
 
+SETUP
 Please follow the below steps to execute the project file.
 
 1. Access the zip file Echo tales using any IDE: Open the extracted zip file in any IDE
@@ -45,6 +46,10 @@ python3 -m pip install pyaudio
 python3 -m pip install pysofaconventions
 10. Run the file Echotales.py now and it should run successfully.
 python3 echotales.py
+
+
+
+
 Once the UI comes up,
 PRESS 1 – 4 keys to play audio
 ALSO
