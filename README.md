@@ -1,100 +1,52 @@
+Please follow the below steps to execute the project file.
 
+1. Access the zip file Echo tales using any IDE: Open the extracted zip file in any IDE
+like Visual studio or IntelliJ
 
-```markdown
-# EchoTales
+2. Install Python3: Make sure that you have python3 installed in your system. You might
+face issues if you have multiple versions of python installed in your system. So, it’s better
+to make sure you only have python3 installed.
+which python – Run this command in the terminal to see which python version is
+downloaded.
 
-EchoTales is a Python-based project designed to create interactive audio experiences. This guide will help you set up and run the project on your local machine.
+3. Run file Echotales.py – you will come across the following errors, saying that modules
+have not been installed or python is not available
+Open the terminal in the path of the project file and run below command
+python3 echotales.py
 
-## Prerequisites
+if this doesn’t work try,
+python3_path_in_your_system echotales.py_path_in_your_system
 
-- **Python 3**: Ensure Python 3 is installed on your system. It is recommended to have only Python 3 installed to avoid version conflicts.
-- **pip**: Make sure `pip` is installed and updated for managing Python packages.
+4. If the systems asks you to download any tools please go ahead.
+   
+5. Now you have install few python libraries, before that lets make sure that you have pip
+installed and it is updated. To check this, please run below commands
+python3 -m ensurepip
+python3 -m pip install --upgrade pip
 
-## Setup Instructions
+6. Now install below libraries
+python3 -m pip install pysofaconventions
+python3 -m pip install scipy
 
-### 1. Extract and Open the Project
+7. Now to install pyaudio, you need to install homebrew and portaudio first
+python3 -m pip install pyaudio , If you run this command you will get few errors which
+are expected to get rid of the errors, execute below command
+/bin/bash -c "$(curl -fsSL
+https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+Note: After you execute this command, your terminal will give you Nextsteps , in which
+you have to execute 2 commands. Please go ahead and execute those 2 commands.
+Then execute the below command to install Port Audio
+brew install portaudio
+Now try installing pyAudio by using below command and it should start installing
+python3 -m pip install pyaudio
 
-- Download and extract the EchoTales zip file.
-- Open the extracted folder in your preferred IDE (e.g., Visual Studio Code, PyCharm, IntelliJ).
+8. Install pygame using below command.
+python3 -m pip install pysofaconventions
 
-### 2. Verify Python Installation
-
-- Open the terminal and run the following command to check if Python 3 is installed:
-
-  ```bash
-  which python3
-  ```
-
-  This should return the path to Python 3. If it does not, ensure that Python 3 is correctly installed on your system.
-
-### 3. Run the Project File
-
-- Navigate to the project directory in your terminal and attempt to run the main Python file:
-
-  ```bash
-  python3 echotales.py
-  ```
-
-  If this does not work, try specifying the full path to your Python 3 installation and the `echotales.py` file:
-
-  ```bash
-  /path/to/python3 /path/to/echotales.py
-  ```
-
-### 4. Install Required Python Libraries
-
-- Ensure that `pip` is installed and updated by running the following commands:
-
-  ```bash
-  python3 -m ensurepip
-  python3 -m pip install --upgrade pip
-  ```
-
-- Install the necessary Python libraries:
-
-  ```bash
-  python3 -m pip install pysofaconventions
-  python3 -m pip install scipy
-  python3 -m pip install pygame
-  ```
-
-### 5. Install PyAudio
-
-- Installing PyAudio requires `Homebrew` and `PortAudio`. Follow these steps:
-
-  - **Install Homebrew:**
-
-    ```bash
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
-
-    After running the above command, the terminal will provide you with two additional commands for the next steps. Please execute those.
-
-  - **Install PortAudio:**
-
-    ```bash
-    brew install portaudio
-    ```
-
-  - **Now install PyAudio:**
-
-    ```bash
-    python3 -m pip install pyaudio
-    ```
-
-### 6. Run the Project
-
-- Once all dependencies are installed, you can run the project:
-
-  ```bash
-  python3 echotales.py
-  ```
-
-  The project should now run successfully.
-
-## Additional Resources
-
-For further assistance or to access additional resources, visit the project's [Google Drive folder](https://drive.google.com/drive/u/2/folders/1D2QPpE0jryPb6gfWfCYdPN2_mMINu3ex).
-```
-
-You can copy and paste this content directly into your `README.md` file. Let me know if there are any other details you'd like to add or adjust!
+9. Run the file Echotales.py now and it should run successfully.
+   
+python3 echotales.py
+Once the UI comes up,
+PRESS 1 – 4 keys to play audio
+ALSO
+PRESS 1 – 4 keys to PAUSE audio as well.
